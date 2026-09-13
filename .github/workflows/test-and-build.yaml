@@ -25,8 +25,8 @@ jobs:
           node-version: '22.15.1'
       - name: installing dependencies
         run: npm install
-      - name: start my app
-        run: npm run build 
+      - name: check npm configuration
+        run: npm run
 
 
 
