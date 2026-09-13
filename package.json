@@ -2,7 +2,7 @@
   "name": "nodejs-github-actions-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server.s",
   "scripts": {
     "start": "node server.js",
     "test": "node --test"
