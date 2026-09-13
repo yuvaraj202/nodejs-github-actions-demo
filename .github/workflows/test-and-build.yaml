@@ -2,7 +2,7 @@ name: Testing and Building my app
 on: push
 jobs:
   test:
-    runs_on: ubuntu-slim
+    runs-on: ubuntu-slim
     steps:
       - name: getting my code first
         uses: actions/checkout@v6
