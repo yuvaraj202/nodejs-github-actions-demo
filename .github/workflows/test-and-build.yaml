@@ -11,10 +11,11 @@ jobs:
         with:
           node-version: '22.15.1'
       - name: installing dependencies
-        run: npm install
+        run: npm istall
       - name: testing app
         run: npm test  
   build:
+    needs: test
     runs-on: ubuntu-slim
     steps:
       - name: getting my code first
